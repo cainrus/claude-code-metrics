@@ -1,0 +1,31 @@
+{
+  "name": "claude-code-metrics",
+  "version": "1.0.0",
+  "description": "Cost and hook-latency metrics for Claude Code, read straight out of the local transcripts. No proxy, no wrapper, no instrumentation.",
+  "type": "module",
+  "license": "MIT",
+  "author": "Sergei Tarassov <cainrus@gmail.com>",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cainrus/claude-code-metrics.git"
+  },
+  "keywords": [
+    "claude-code",
+    "observability",
+    "cost-tracking",
+    "token-usage",
+    "hooks",
+    "llm",
+    "typescript"
+  ],
+  "bin": {
+    "claude-usage": "./claude-usage.ts",
+    "hook-timings": "./hook-timings.ts"
+  },
+  "scripts": {
+    "test": "node --test --experimental-strip-types claude-usage.test.ts hook-timings.test.ts"
+  },
+  "engines": {
+    "node": ">=22"
+  }
+}
