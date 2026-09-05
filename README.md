@@ -1,5 +1,7 @@
 # claude-code-metrics
 
+[![CI](https://github.com/cainrus/claude-code-metrics/actions/workflows/ci.yml/badge.svg)](https://github.com/cainrus/claude-code-metrics/actions/workflows/ci.yml)
+
 Two read-only tools that answer **"what did this cost"** and **"what is slow"** for
 Claude Code — by reading the transcripts it already writes to disk.
 
